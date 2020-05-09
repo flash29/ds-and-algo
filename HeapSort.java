@@ -1,9 +1,12 @@
 public class HeapSort {
 
+    // Returns the left node of a parent node i
     int Left(int i){return 2*i;}
 
+    // Returns the Right node of a parent node i
     int Right(int i){return 2*i+1;}
 
+    // This function makes sure that the Max Heap rule is Satisfied
     void MaxHeapify(int a[],int i,int heapsize){
         int l,r;
         int largest,temp;
@@ -26,6 +29,7 @@ public class HeapSort {
         }
     }
 
+    // This function buils the max heap
     void BuildMaxHeap(int a[]){
         int n=a.length-1;
         int heapsize=n;
@@ -34,6 +38,9 @@ public class HeapSort {
         }
     }
 
+    // Here we build the max heap and sort the elements in an array by swaping the first element of the array
+    // (which is the max element as we built a max heap ) to the last element of the array and check if the rest of the array
+    // (size of heap) satisfies the max heap condition
     void HeapSorting(int a[]){
 
         BuildMaxHeap(a);
@@ -50,6 +57,7 @@ public class HeapSort {
         }
     }
 
+    // to display all the values in the array
     void Display(int a[], int n){
         for(int i=0;i<n;i++){
             System.out.println(a[i]);
