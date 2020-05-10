@@ -21,6 +21,7 @@ public class UsingSort {
         ms.Display(a,n-1);
         */
 
+        // For Using Heap sort 
         HeapSort hs = new HeapSort();
         hs.HeapSorting(a);
         hs.Display(a, n);
