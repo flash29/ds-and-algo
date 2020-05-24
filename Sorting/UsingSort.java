@@ -1,4 +1,4 @@
-package Sorting;
+
 public class UsingSort {
     public static void main(String[] args){
      
@@ -22,9 +22,15 @@ public class UsingSort {
         */
 
         // For Using Heap sort 
-        HeapSort hs = new HeapSort();
-        hs.HeapSorting(a);
-        hs.Display(a, n);
+       // HeapSort hs = new HeapSort();
+        //hs.HeapSorting(a);
+        //hs.Display(a, n);
+
+        QuickSort q1= new QuickSort();
+        int l=0;
+        int h=n-1;
+        q1.Partition(a, l, h);
+        q1.Display(a, n);
 
     }
     
