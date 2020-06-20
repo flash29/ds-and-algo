@@ -1,4 +1,4 @@
-//package Sorting;
+package Sorting;
 public class UsingSort {
     public static void main(String[] args){
      //Initialising Variables

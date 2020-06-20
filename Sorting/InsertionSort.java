@@ -1,4 +1,4 @@
-//package Sorting;
+package Sorting;
 public class InsertionSort {
     //sorting in increasing order
     void sort(int a[]){

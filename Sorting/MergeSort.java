@@ -1,4 +1,4 @@
-//package Sorting;
+package Sorting;
 public class MergeSort {
     
     
@@ -57,7 +57,7 @@ public class MergeSort {
     }
 
     void Display(int a[], int n){
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n+1;i++){
             System.out.println(a[i]);
         }
     }
