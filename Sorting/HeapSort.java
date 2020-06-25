@@ -30,7 +30,7 @@ public class HeapSort {
         }
     }
 
-    // This function buils the max heap
+    // This function builds the max heap
     void BuildMaxHeap(int a[]){
         int n=a.length-1;
         int heapsize=n;
