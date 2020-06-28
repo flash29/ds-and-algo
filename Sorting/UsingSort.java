@@ -33,13 +33,19 @@ public class UsingSort {
         q1.Partition(a, l, h);
         System.out.println("Sorted Using Quick Sort");
         q1.Display(a, n);
-*/
+
     // 5. Selection Sort
+
         SelectionSort ss= new SelectionSort();
         System.out.println("Sorted Using Selection Sort");
         ss.Sorting(a, n);
         ss.Display(a, n);
-
+*/
+    // 6. Quick Sort
+        BubbleSort bs = new BubbleSort();
+        System.out.println("Sorted Using bubble Sort");
+        bs.Sorting(a);
+        bs.Display(a, n);
     }
     
 }
