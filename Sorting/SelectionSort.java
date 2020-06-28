@@ -1,4 +1,5 @@
 package Sorting;
+// finding the smallest element in the list and swapping it with A[0] and sencond smallest with a[1] and so on...
 public class SelectionSort {
     void Sorting(int a[],int n){
         int index=-1,temp;
