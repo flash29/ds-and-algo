@@ -1,5 +1,5 @@
 package Sorting;
-
+//repeatedley swapping adjacent elements that are out of order 
 public class BubbleSort {
    void Sorting(int a[]){
        int n= a.length;
