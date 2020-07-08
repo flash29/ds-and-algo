@@ -1,5 +1,8 @@
 package DivideAndConquer;
 
+//To find the maximum value of a sub array in a list of elements
+
+
 public class MaxSubArray {
     static double[] MaxCrossingArray(int a[],int l,int mid,int h){
         Double rightsum = Double.NEGATIVE_INFINITY ;
@@ -64,8 +67,11 @@ public class MaxSubArray {
         double[] result = new double[3];
         int l=0,h=array.length;
         result=MaxArray(array,l,h-1);
+        System.out.println("The sub array starts from:");
         System.out.println(result[0]);
+        System.out.println("The sub array ends at:");
         System.out.println(result[1]);
+        System.out.println("The value of the sub array :");
         System.out.println(result[2]);
 
 
