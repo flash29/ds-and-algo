@@ -8,7 +8,7 @@ char pattern[PATTERN_MAX];
 char string[STRING_MAX];
 int failure[PATTERN_MAX];
 
-void fail(char string[], char pattern[]){
+void fail(){
 
     int i;
 
@@ -53,16 +53,16 @@ int find(){
 int main(){
     int i, result;
     strcpy(string, "defabcabdX" );
-    strcpy(pattern, "abcabd" );
-    fail(string, pattern);
+    strcpy(pattern, "ababaa" );
+    fail();
 
 
     printf("The string is : %s\n", string);
     printf("The pattern is : %s\n", pattern);
-    printf("The failure Array is");
+    printf("The failure Array is\n");
     for(i=0;i< strlen(pattern);i++){
         printf("%d\t", failure[i]);
     }
     result = find();
-    printf("The result is %d", result);
+    printf("The result is %d\n", result);
 }
