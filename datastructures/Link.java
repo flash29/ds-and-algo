@@ -1,6 +1,5 @@
 package datastructures;
 public class Link {
-    
     static class Node{
         int Data;
         Node next;
@@ -35,7 +34,7 @@ public class Link {
             }
             System.out.println("This is the element deleted "+(n1.next).Data);
             n1.next= null;
-
+            
         }
     }
     static void show(){

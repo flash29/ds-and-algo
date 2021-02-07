@@ -4,9 +4,7 @@ int top = -1;
 #define MAX_SIZE 10
 int stack[MAX_SIZE];
 
-/*
-Stack implementation
-*/
+
 
 void stackFull(){
     fprintf(stderr, "Stack is Full.\n STACK OVERFLOW\n");
@@ -49,7 +47,6 @@ void display(){
 }
 
 int main(){
-
     int ch, value, l=1;
 
 
