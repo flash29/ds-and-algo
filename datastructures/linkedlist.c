@@ -57,11 +57,11 @@ void pop(int index){
 void print(){
     temp= head;
     printf("\nThe list is :\n");
-    while(temp->next!=NULL){
+    while(temp != NULL){
         printf("%d\t", temp->data);
         temp=temp->next;
     }
-    printf("%d", temp->data);
+   
     printf("\n");
 }
 
